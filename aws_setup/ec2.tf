@@ -12,11 +12,6 @@ terraform {
 }
 
 
-variable "name" { default = "aws-with-vault" }
-variable "region" { default = "ap-south-1" }
-variable "path" { default = "../vault-setup/terraform.tfstate" }
-#variable "ttl" { default = "1" }
-
 
 // this is our tfstate config about ec2.tf
 
