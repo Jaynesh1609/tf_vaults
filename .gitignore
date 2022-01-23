@@ -1,0 +1,18 @@
+*.out
+
+.terraform/                      # this will create some lock.hcl file 
+*.terraform.tfstate             #most imprtant should not be displayed soo i have use gcs bucket inside my code
+terraform.tfstate.d
+crash.log                       #error creation
+*.log                             #for the graph
+.config                         
+credentials.json                #imprtant part gcp credentials
+*.plan                         
+terraform.tfstate.d             #for the no of workspace that i have created
+
+*.txt                    # username for db	  # pass for db
+
+.terraform.lock.hcl
+
+#git
+.git
