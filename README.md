@@ -10,7 +10,7 @@ be sure while assigning iam role to you vaults
 before going to run terraform
 
 Installtion of vault...
-   https://learn.hashicorp.com/tutorials/vault/getting-started-install
+   @https://learn.hashicorp.com/tutorials/vault/getting-started-install
 
 vault server -dev -dev-root-token-id="name_ur"
 
