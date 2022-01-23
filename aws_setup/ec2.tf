@@ -11,8 +11,6 @@ terraform {
   }
 }
 
-
-
 // this is our tfstate config about ec2.tf to save it for local what if you want to save it in s3 do coment out
 
 /*
@@ -23,10 +21,7 @@ terraform {
   }
 }
 
-    
-
 // this is about vault tfstate file and you have saved that vault-setup file in s3
-
 
 data "terraform_remote_state" "vaultest" {
   backend = "local"
@@ -34,10 +29,8 @@ data "terraform_remote_state" "vaultest" {
     path = var.path
   }
 }
-
- */
+*/
     
-  
 // this is about vault tfstate file and ec2.tf will contact with @vault-setup state file whose tfsate file is saved in s3 bucket
 
 data "terraform_remote_state" "vaultest" {
@@ -48,7 +41,6 @@ data "terraform_remote_state" "vaultest" {
     region = "ap-south-1"
   }
 }
-
 
 //this will contact with you vault an trying to give you key in accordance with
 
