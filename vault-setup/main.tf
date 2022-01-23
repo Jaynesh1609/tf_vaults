@@ -36,6 +36,11 @@ resource "vault_aws_secret_backend_role" "vaultest" {
           "Resource": "*"
         },
         {
+          "Action": "s3:*",        
+          "Effect": "Allow",          
+          "Resource": "*"
+        },
+        {
             "Action": "ec2:*",
             "Effect": "Allow",
             "Resource": "*"
