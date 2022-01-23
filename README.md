@@ -13,5 +13,7 @@ then aws-setup file
 
 
 terraform init
+
 terraform plan
+
 terraform apply
