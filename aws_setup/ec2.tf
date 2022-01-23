@@ -37,8 +37,8 @@ data "terraform_remote_state" "vaultest" {
 
  */
     
-// this is about vault tfstate file
-
+  
+// this is about vault tfstate file and ec2.tf will contact with @vault-setup state file whose tfsate file is saved in s3 bucket
 
 data "terraform_remote_state" "vaultest" {
   backend = "s3"
