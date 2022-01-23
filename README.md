@@ -12,8 +12,8 @@ RUN first vault-setup file
 then aws-setup file
 
 
-terraform init
+# terraform init
 
-terraform plan
+# terraform plan
 
-terraform apply
+# terraform apply
